@@ -18,7 +18,7 @@
       .picture
         img(alt ="newimg" src='../assets/castle.jpg'  height ="95%" style="border: 2px solid black;width :20vw; margin-left=5vw;margin: auto")
       .newstext
-          
+        h1(style="text-align: left;color: black;margin:15px") 竹塹城。又稱淡水廳城、新竹縣城，是指臺灣在清治時代於今日新竹市中心所建的城廓，創立於雍正元年（1723年），是當時淡水廳廳治所在，後臺北府設立，淡水廳城改為新竹縣城。現存的磚石城池完成於道光九年（1829年）。因此有時也用「竹塹城」一詞來代指新竹市。迎曦門是竹塹城現今唯一留存的城門，是中華民國國定古蹟。
 </template>
 
 <script>
@@ -37,6 +37,8 @@ export default {
     margin-top: 1vh;
     background-color: lightgrey;
     border: 2px solid black;
+    font-size: 5px;
+    padding: 2px;
   }
   .titleblocknews{
     width: 30vw;

@@ -2,13 +2,13 @@
   #app
     .head
     #nav
-      router-link(to="/") Home
+      router-link(to="/newhome") 首頁
       |  
-      router-link(to="/about") About
+      router-link(to="/about") 不要點
       |  
-      router-link(to="/week10") Week10
+      router-link(to="/week10") 新竹美食
       |  
-      router-link(to="/newhome") NewHome
+      router-link(to="/newhome") 還是首頁
       |  
     router-view
       
